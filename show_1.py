@@ -102,5 +102,6 @@ if __name__ == '__main__':
 		theater_chase(strip, Color(127, 0, 0))
 		theater_chase(strip, Color(0, 0, 127))
 		theater_chase(strip, Color(75, 0, 0))
+		theater_chase(strip, Color(25, 0, 0))
 		print ('Rainbow animations.')
 		theater_chase_rainbow(strip)
