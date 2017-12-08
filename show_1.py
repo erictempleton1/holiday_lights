@@ -95,12 +95,11 @@ if __name__ == '__main__':
 	# Intialize the library (must be called once before other functions).
 	strip.begin()
 
-	print ('Press Ctrl-C to quit.')
+	print "Press Ctrl-C to quit"
 	while True:
-		print "Color wipe"
+		print "Running animations..."
 		color_wipe(strip, Color(127, 0, 0))
-		theater_chase(strip, Color(127, 0, 0), iterations=50)
-		theater_chase(strip, Color(127, 127, 127), iterations=50)
+		theater_chase(strip, Color(127, 0, 0), iterations=100)
 		color_wipe(strip, Color(0, 127, 0))
-		print "Rainbow animations"
+		theater_chase(strip, Color(127, 127, 127), iterations=100)
 		theater_chase_rainbow(strip)
