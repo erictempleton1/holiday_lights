@@ -102,12 +102,8 @@ if __name__ == '__main__':
 		color_wipe(strip, Color(0, 127, 0))
 		color_wipe(strip, Color(127, 127, 127))
 		print "Theater chase animations"
-		theater_chase(strip, Color(127, 127, 127))
-		theater_chase(strip, Color(127, 0, 0))
-		theater_chase(strip, Color(0, 127, 127))
-		theater_chase(strip, Color(75, 0, 0))
-		theater_chase(strip, Color(25, 0, 0))
+		theater_chase(strip, Color(127, 127, 127), iterations=30)
+		theater_chase(strip, Color(127, 0, 0), iterations=30)
+		theater_chase(strip, Color(0, 127, 127), iterations=30)
 		print "Rainbow animations"
 		theater_chase_rainbow(strip)
-		rainbow(strip, 5)
-		rainbow_cycle(strip)
