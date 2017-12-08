@@ -98,10 +98,9 @@ if __name__ == '__main__':
 	print ('Press Ctrl-C to quit.')
 	while True:
 		print "Color wipe"
-		color_wipe(strip, Color(125, 0, 0))
-		color_wipe(strip, Color(100, 0, 0))
-		color_wipe(strip, Color(75, 0, 0))
-		color_wipe(strip, Color(25, 0, 0))
+		color_wipe(strip, Color(127, 0, 0))
+		color_wipe(strip, Color(127, 127, 0))
+		color_wipe(strip, Color(127, 127, 127))
 		print "Theater chase animations"
 		theater_chase(strip, Color(127, 127, 127), iterations=30)
 		theater_chase(strip, Color(127, 0, 0), iterations=30)
