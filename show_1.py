@@ -99,13 +99,8 @@ if __name__ == '__main__':
 	while True:
 		print "Color wipe"
 		color_wipe(strip, Color(127, 0, 0))
-		print "Theater chase animations"
 		theater_chase(strip, Color(127, 0, 0), iterations=50)
-		color_wipe(strip, Color(127, 127, 127))
 		theater_chase(strip, Color(127, 127, 127), iterations=50)
-		color_wipe(strip, Color(127, 0, 0))
-		theater_chase(strip, Color(127, 0, 0), iterations=50)
-		color_wipe(strip, Color(127, 127, 127))
-		theater_chase(strip, Color(0, 127, 127), iterations=50)
+		color_wipe(strip, Color(0, 127, 0))
 		print "Rainbow animations"
 		theater_chase_rainbow(strip)
