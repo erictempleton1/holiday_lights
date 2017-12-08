@@ -87,8 +87,8 @@ def theater_chase_rainbow(strip, wait_ms=50):
 
 
 if __name__ == '__main__':
-    # Process arguments
-    opt_parse()
+	# Process arguments
+	opt_parse()
 
 	# Create NeoPixel object with appropriate configuration.
 	strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS, LED_CHANNEL, LED_STRIP)
@@ -103,5 +103,5 @@ if __name__ == '__main__':
 		theater_chase(strip, Color(0, 0, 127))
 		theater_chase(strip, Color(75, 0, 0))
 		theater_chase(strip, Color(25, 0, 0))
-		print ('Rainbow animations.')
-		theater_chase_rainbow(strip)
+		# print ('Rainbow animations.')
+		# theater_chase_rainbow(strip)
